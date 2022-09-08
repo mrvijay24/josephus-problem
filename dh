@@ -1,0 +1,6 @@
+   int vijay=0;
+   if(n==1);
+   vijay=1;
+   else
+   vijay=(josephus(n-1,k)+(k-1))%n+1;
+   return vijay
